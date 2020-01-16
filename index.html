@@ -6,6 +6,7 @@
     <link rel="icon" href="images\favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -50,8 +51,59 @@
 </div>
 <!-- NAVBAR END -->
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--Carousel Start-->
+
+  <div class="container-fluid">
+    <div class="carousel slide carousel-animation" id="main-carousel" data-ride="carousel" data-interval="4000">
+      <ol class="carousel-indicators">
+        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main-carousel" data-slide-to="1"></li>
+        <li data-target="#main-carousel" data-slide-to="2"></li>
+     
+      </ol><!-- /.carousel-indicators -->
+      
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="images/Carouse1img.jpeg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mountain</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="images/Carouse2img.jpeg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mountain</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Carouse3img.jpeg" alt="" class="d-block img-fluid">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mountain</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+          </div>
+        </div>
+      </div><!-- /.carousel-inner -->
+      
+      <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only" aria-hidden="true">Prev</span>
+      </a>
+      <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only" aria-hidden="true">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+  </div><!-- /.container -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 
   </body>
 </html>
