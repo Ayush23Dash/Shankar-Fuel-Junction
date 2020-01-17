@@ -80,7 +80,6 @@ text-decoration: none;
 }
 .staff h1{
   font-family:fantasy;
-
 }
 
 
@@ -92,11 +91,21 @@ text-decoration: none;
   border:1px solid black;
    animation-name: zoomIn;
     animation-duration: 1s;
- 
+
 }
 .card h6{
   color:#F37022;
 }
 
-
-
+  .con-but
+  {
+    text-align: center;
+  }
+  @media only screen and (max-width: 1200px) {
+    .rounded-circle{
+      width:10rem;
+    }
+    #conus{
+      text-align: center;
+    }
+  }
