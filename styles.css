@@ -1,111 +1,114 @@
-
-
-img{
+img {
   width: 50%;
 }
-.carousel-inner img {
 
-  width:100%;
-  height:65vh;
+.carousel-inner img {
+  width: 100%;
+  height: 65vh;
 }
 
-.navbar{
+.navbar {
   font-family: 'Glegoo', serif;
   width: 100vw;
 }
 
-#map{
-  width:100%;
-  height:50vh;
+#map {
+  width: 100%;
+  height: 50vh;
 }
-.nav-item{
+
+.nav-item {
   display: block;
-color: white;
-text-align: center;
-padding: 16px;
-text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
 /*Carousel start*/
-
 .carousel-animation .carousel-item {
-    transform: none;
+  transform: none;
 }
+
 .carousel-animation .carousel-item-left.active,
 .carousel-animation .carousel-item-right.active {
-    transform: translate(0, 0);
+  transform: translate(0, 0);
 }
-
 
 .carousel-animation .carousel-item {
-    transform: none;
+  transform: none;
 }
+
 .carousel-animation .carousel-item-left {
-    animation-name: zoomIn;
-    animation-duration: 1s;
+  animation-name: zoomIn;
+  animation-duration: 1s;
 }
+
 .carousel-animation .carousel-item-left.active {
-    transform: translate(0, 0);
-    animation-name: zoomOut;
+  transform: translate(0, 0);
+  animation-name: zoomOut;
 }
+
 .carousel-animation .carousel-item-right {
-    animation-name: zoomIn;
-    animation-duration: 1s;
+  animation-name: zoomIn;
+  animation-duration: 1s;
 }
+
 .carousel-animation .carousel-item-right.active {
-    transform: translate(0, 0);
-    animation-name: zoomOut;
+  transform: translate(0, 0);
+  animation-name: zoomOut;
 }
+
 /*Carousel End*/
 .order_now_button {
-    font-size: 0;
-    height: 60px;
-    width: 150px;
-    background: url(images/order_now.png) no-repeat scroll 0 0;
-    z-index: 999;
-    display: block;
-    position: fixed;
-    right: 0;
-    bottom: 50%;
-    cursor: pointer;
+  font-size: 0;
+  height: 60px;
+  width: 150px;
+  background: url(images/order_now.png) no-repeat scroll 0 0;
+  z-index: 999;
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  cursor: pointer;
 }
 
- .map{
-      background-color: rgb(245, 245, 245);
+.map {
+  background-color: rgb(245, 245, 245);
 }
+
 /* Contact*/
-.contact h1{
-  font-family:fantasy;
-  color:#000;
-}
-.staff h1{
-  font-family:fantasy;
+.contact h1 {
+  font-family: fantasy;
+  color: #000;
 }
 
+.staff h1 {
+  font-family: fantasy;
+}
 
-
-
-.card{
+.card {
   background: linear-gradient(90deg, #A770EF 0%, #CF8BF3 35%, #FDB99B 100%);
-  color:#fff;
-  border:1px solid black;
-   animation-name: zoomIn;
-    animation-duration: 1s;
-
-}
-.card h6{
-  color:#F37022;
+  color: #fff;
+  border: 1px solid black;
+  animation-name: zoomIn;
+  animation-duration: 1s;
 }
 
-  .con-but
-  {
+.card h6 {
+  color: #F37022;
+}
+
+.con-but {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .rounded-circle {
+    width: 10rem;
+  }
+
+  #conus {
     text-align: center;
   }
-  @media only screen and (max-width: 1200px) {
-    .rounded-circle{
-      width:10rem;
-    }
-    #conus{
-      text-align: center;
-    }
-  }
+}
