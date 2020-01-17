@@ -93,6 +93,7 @@ img {
   border: 1px solid black;
   animation-name: zoomIn;
   animation-duration: 1s;
+  margin-bottom: 20px;
 }
 
 .card h6 {
