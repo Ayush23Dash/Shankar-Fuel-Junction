@@ -79,6 +79,16 @@ img {
   background-color: rgb(245, 245, 245);
 }
 
+/* Customer Amenities */
+.camen{
+  background: linear-gradient(#FFEEEE,#DDEFBB);
+  text-align: center;
+
+}
+.camen h4{
+  color: #FF4136;
+  font-family: 'Zhi Mang Xing', cursive;
+}
 /* Contact*/
 .contact h1 {
   font-family: fantasy;
