@@ -1,0 +1,17 @@
+/* body{
+  text-align: center;
+font-family: 'Lobster', cursive;
+background-color: #659dbd;
+} */
+
+html{
+  text-align: center;
+font-family: 'Lobster', cursive;
+  margin:0;
+  padding: 0;
+  height: 100vh;
+}
+#particles-js{
+  height: 100%;
+  background: #659dbd;
+}
