@@ -97,6 +97,33 @@ img {
   padding: 1%;
 }
 
+#gallery h3{
+  position:absolute;
+  top:30%;
+  left:50%;
+  text-align:center;
+  color:yellow;
+  font-family: 'Righteous', cursive;
+}
+#galbut{
+  position:absolute;
+  top:70%;
+  left:50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #galbut{
+  position:absolute;
+  top:70%;
+  left:40%;
+}
+#gallery h3{
+position:absolute;
+top: 30%;
+left:40%;
+}
+}
+
 /* Contact*/
 .contact h1 {
   font-family: fantasy;
