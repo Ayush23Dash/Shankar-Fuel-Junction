@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -35,7 +36,7 @@
           <a data-scroll class="nav-link" href="#camen">Amenities for the Customers</a>
         </li>
         <li class="nav-item scroll">
-          <a data-scroll class="nav-link" href="#">Gallery</a>
+          <a data-scroll class="nav-link" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item scoll">
           <a data-scroll class="nav-link" href="#">About Us</a>
@@ -271,10 +272,10 @@
 <div class="camen" id="camen">
 <h4>Fleet Card Facility</h4>
 <div class="row">
-  <div class="col-lg-4 col-md-3">
+  <div class="col-lg-3 col-md-3">
     <img src="images/Fleet.jpg" alt="">
   </div>
-  <div class="col-lg-8 col-md-9" >
+  <div class="col-lg-9 col-md-9" >
     <p>IndianOil's XTRAPOWER Fleet Card Program is a complete Fleet Management Solution for the Logistics Industry. With more than 23 lakh vehicles covered so far by the fleet card program, XTRAPOWER is the ideal choice for large logistics service providers, small fleet operators and corporate customers who need complete control over their fleet.
 
 XTRAPOWER is a smart chip based fleet card program, where you get a smart chip fleet card for each of your vehicle. This smart chip based fleet card comes as Pre Paid or Credit* depending on your choice.
@@ -284,6 +285,14 @@ Purchase fuel through cashless transaction from the largest fuel retail network 
 </div>
 </div>
   <!-- Customer Amenities End -->
+  <hr>
+  <!-- Gallery Page Start -->
+<div onmouseover="fadeImg()" onmouseleave="normalImg()" id="gallery" style="position:relative;">
+<img src="images/backimg.png">
+<h3 style="position:absolute;top:30%;left:50%;text-align:center;color:yellow;font-family: 'Righteous', cursive;"><strong>GALLERY</strong></h3>
+<a href="gallery.html" target="_blank"><button class="btn btn-primary" type="button" name="button" id="galbut" style="position:absolute;top:70%;left:50%;"><strong>View More</strong></button></a>
+</div>
+  <!-- Gallery Page End -->
   <hr>
 <br>
   <!--Contact us Start -->
@@ -329,7 +338,28 @@ SH 17, Nangal Sirohi, Haryana 123028</h5>
 
 
   <!--Contact us  End-->
+<script type="text/javascript">
+const mq = window.matchMedia( "(min-width: 700px)" );
+var div = document.getElementById("gallery");
+var ele = document.getElementById("galbut");
+console.log(mq);
+if(mq.matches === true){
+ele.style.opacity = "0";
+  function fadeImg(){
+     div.style.opacity = "0.8";
+     ele.style.opacity = "1";
+  }
+  function normalImg()
+  {
+    div.style.opacity = "1";
+    ele.style.opacity = "0";
+  }
+}
+else{
+  ele.style.color = "#fff";
+}
 
+</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js"> </script>
 
