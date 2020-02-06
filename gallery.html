@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="styles.css">
+
   </head>
   <body style="text-align:center;">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="font-family: 'Glegoo', serif;">
       <a class="navbar-brand" href="index.html" onclick="goBack()"><img src="images/favrem.png" alt="Logo" style="margin-left:15%">
         <p style="color:#F37022">Shankar Fuel Junction</p>
       </a>
@@ -134,7 +134,9 @@ SH 17, Nangal Sirohi, Haryana 123028</h5>
 </div>
 
 <!--Contact us  End-->
-
+<!-- GO TO TOP BUTTON-->
+<button onclick="scrollToTop(600)" id="myBtn" title="Go to top"><img src="images/totop.png"></button>
+<!--END OF GO TO TOP BUTTON-->
 <script>
 function goBack() {
   window.history.back();

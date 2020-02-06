@@ -207,8 +207,6 @@ left:40%;
 @media screen only (max-width:768px)
 {
   .galleryImgs img{
-    /* height: 180px; */
-
     text-align: center;
   }
 }
