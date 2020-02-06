@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body style="text-align:center;">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-      <a class="navbar-brand" href="#"><img src="images/favrem.png" alt="Logo" style="margin-left:15%">
+      <a class="navbar-brand" href="index.html" onclick="goBack()"><img src="images/favrem.png" alt="Logo" style="margin-left:15%">
         <p style="color:#F37022">Shankar Fuel Junction</p>
       </a>
 
@@ -20,34 +21,130 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active scroll">
-            <a data-scroll class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item active scroll" style="padding-right:100px;padding-left:100px;">
+            <a data-scroll class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item scroll">
-            <a data-scroll class="nav-link" href="#mts">Meet The Staff</a>
-          </li>
-          <li class="nav-item scroll">
-            <a data-scroll class="nav-link" href="#camen">Amenities for the Customers</a>
-          </li>
-          <li class="nav-item scroll">
-            <a data-scroll class="nav-link" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item scoll">
-            <a data-scroll class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item scoll">
+          <li class="nav-item scoll" style="padding-right:100px;padding-left:100px;">
             <a class="nav-link" href="homedel.html" target="_blank">Home Delivery of Oil <i class="fa fa-shopping-cart "></i></a>
           </li>
-          <li class="nav-item scroll">
+          <li class="nav-item scroll" style="padding-right:100px;padding-left:100px;">
             <a data-scroll class="nav-link" href="#conus">Contact Us</a>
           </li>
         </ul>
       </div>
     </nav>
-    </div>
     <!-- NAVBAR END -->
+<br>
+<!-- GALLERY START -->
+<h2 style="color:#212A4F">Photo Gallery</h2>
+<!-- 1st Row -->
+<div class="row">
+
+  <div class="col-lg-2 col-md-0">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/1.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/2.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/3.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/4.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-0">
+  </div>
+
+</div>
+<!-- 2nd Row -->
+<div class="row">
+
+  <div class="col-lg-2 col-md-0">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/5.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/6.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/3.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-12 galleryImgs">
+    <img src="galleryImgs/4.jfif" alt="img1">
+  </div>
+
+  <div class="col-lg-2 col-md-0">
+  </div>
+
+</div>
+<!-- GALLERY END -->
+<hr>
+<br>
+<!--Contact us Start -->
+<div class="container-fluid contact" id="conus">
+  <h1 class="text-center">Contact Us</h1>
+  <br>
+  <div class="row">
+    <div class="col-xl-3" style="text-align:center;">
+      <img src="https://image3.jdomni.in/banner/04052018/20/18/D8/2A50B394F0E72BB21601008E98_1525429738448_500X.webp" style="width:50px ;height:50px;">
+      <h3>Our Office Address</h3>
+      <h5>Shankar Fuel Junction
+SH 17, Nangal Sirohi, Haryana 123028</h5>
+    </div>
+    <div class="col-xl-3" style="text-align:center;">
+      <a href="mailto:shankarfuel@rediffmail.com" style="text-decoration:none;">
+        <img src="https://image3.jdomni.in/banner/04052018/77/68/7F/BBE16B321479AC0A3475A14591_1525429746199_500X.webp" style="width:50px ;height:50px">
+        <h3 style="color:black">Our Office Enquires</h3>
+        <h5 style="text-decoration:none;color:green;">shankarfuel@rediffmail.com</h5>
+      </a>
+    </div>
+    <div class="col-xl-3" style="text-align:center;">
+      <a href="tel:919811328537" style="text-decoration:none;">
+        <img src="https://image2.jdomni.in/banner/04052018/E0/A4/1F/4F6F99F7C07E7C033B1A2F7742_1525429758702_500X.webp" style=" width:50px ;height:50px">
+        <h3 style="color:black">Call us at</h3>
+        <h5 style="text-decoration:none;color:green;">+91 9811328537</h5>
+      </a>
+    </div>
+    <div class="col-xl-3" style="text-align:center;">
+      <img src="https://image3.jdomni.in/banner/04052018/59/57/6B/58AFC8556BB5E207950662F5B9_1525429779239_500X.webp" style="width:50px ;height:50px">
+      <h3>Our Timings</h3>
+      <h5>Mon - Sun : 09:00 AM - 07:30 PM</h5>
+    </div>
+
+  </div>
+  <br>
+  <!--The div element for the map -->
+  <div id="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27943.67057897581!2d76.0663542710875!3d28.899571700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391243886d04f195%3A0x47cb7b4b455915a8!2sShankar%20Fuel%20Junction!5e0!3m2!1sen!2sin!4v1579187337095!5m2!1sen!2sin"
+      width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+</div>
+
+<!--Contact us  End-->
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"> </script>
+<script src="https://use.fontawesome.com/576f6a076e.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
