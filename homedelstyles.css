@@ -1,6 +1,5 @@
 body{
   text-align: center;
-
   background-color: #1F4A92 ;
 }
 h2{
@@ -9,10 +8,20 @@ h2{
   color: orange;
 }
 #particles-js{
-  height: 100vh;
+  height: 32vh;
   width: 100%;
 }
 
 .card{
   background: linear-gradient(#EDE574,#E1F5C4);
+}
+
+.footer{
+  background:linear-gradient(#3D7EAA,#FFE47A);
+}
+@media only screen and (max-width: 992px)
+{
+  .cardcls{
+    padding-bottom: 10px;
+  }
 }
