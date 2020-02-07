@@ -18,10 +18,17 @@ h2{
 
 .footer{
   background:linear-gradient(#3D7EAA,#FFE47A);
+  width:30%;
 }
 @media only screen and (max-width: 992px)
 {
   .cardcls{
     padding-bottom: 10px;
+  }
+  .footer{
+    width:50%;
+    position:absolute;
+    right:20%;
+
   }
 }
