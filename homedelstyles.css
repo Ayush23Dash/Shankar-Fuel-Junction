@@ -18,17 +18,21 @@ h2{
 
 .footer{
   background:linear-gradient(#3D7EAA,#FFE47A);
-  width:30%;
+  width:20%;
+  position:absolute;
+  left:40%;
 }
 @media only screen and (max-width: 992px)
 {
+  body{
+    position: relative;
+  }
   .cardcls{
     padding-bottom: 10px;
   }
   .footer{
-    width:50%;
+    width:30%;
     position:absolute;
-    right:20%;
-
+    left:35%;
   }
 }
